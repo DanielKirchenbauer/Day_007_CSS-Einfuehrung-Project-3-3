@@ -18,31 +18,26 @@ header nav {
    text-align: right;
    padding-right: 25px;
 }
-.AbschnittGif {
-    
-}
 
-.AbschnittGif div {
+.TextAndImage div {
     max-width: 710px;
     display: inline-block;
     vertical-align: text-top;
 }
 
-.AbschnittGif div:nth-of-type(1) {
+.TextAndImage div {
     margin-top: 10px;
 }
-
-.AbschnittGif div h1 {
+.TextAndImage div h1 {
     margin-bottom: 10px;
 }
-
-.AbschnittGif div p {
+.TextAndImage div p {
     margin-bottom: 35px;
 }
-
-.AbschnittGif div img {
+.TextAndImage div img {
     max-width: 100%;
 }
+
 
 .button a {
     display: inline-block;
@@ -52,10 +47,27 @@ header nav {
     text-decoration: none;
 }
 
-.imgWidthTest img{
-    width: 360px;
+.imageWidthTest div img{
+    max-width: 90%;
 }
 
-.imgWidthTest {
-    text-align: center;
+.imageWidthTest div {
+    max-width: 1440px;
+    display: grid;
+    gap: 75px;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
+
+.ParallelImage div {
+    max-width: 1440px;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr;
+
+}
+.ParallelImage div img {
+    max-width: 100%;
+}
+
+
